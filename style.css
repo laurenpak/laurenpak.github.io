@@ -1,0 +1,153 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  font-family: "Lucida Sans Typewriter", "Lucida Console", monaco, "Bitstream Vera Sans Mono", monospace;
+  padding-top: 5px;
+
+  background-color: #feffe0;
+  
+  /* desktop background */
+  /* background-image: url("images/desktop.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+
+.btn-link {
+  color: #d970ff;
+  text-decoration: none;
+  padding-right: 0;
+  /* border: 1px solid #000000; */
+}
+
+.btn-main {
+  color: #4ab148;
+  text-decoration: none;
+  padding-right: 0;
+}
+
+a {
+  color: #d970ff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: pink;
+  text-decoration: none;
+}
+
+.btn-link:hover {
+  color: pink;
+}
+
+.bigcontainer {
+  max-width: 600px;
+  min-height: 600px;
+  padding-top: 10%;
+  /* border: 1px solid #000000; */
+}
+
+/* tabs */
+.d-grid {
+  padding-right: 20%;
+  min-width: 60px;
+  /* border: 1px solid #000000; */
+}
+
+.maincontent {
+  min-width: 150%;
+  min-height: 100%;
+  /* border: 1px solid #000000; */
+}
+
+h4 {
+  padding-bottom: 3%;
+}
+
+p {
+  /* display: inline-block; */
+  font-weight: lighter;
+  font-size: 95%;
+}
+
+ul {
+  font-weight: 300;
+  font-size: 95%;
+}
+
+.card-text {
+  font-weight: 300;
+  font-size: 80%;
+}
+
+.tech-stack {
+  font-style: italic;
+  font-weight: 100;
+  font-size: 70%;
+  color: #969696;
+}
+
+#change-text {
+  color: #d970ff;
+  text-decoration: none;
+  
+}
+
+#change-text:hover {
+  color: pink;
+  cursor: pointer;
+}
+
+#change-interest {
+  color: #d970ff;
+  text-decoration: none;
+}
+
+#change-interest:hover {
+  color: pink;
+  cursor: pointer;
+}
+
+.socials {
+  padding-top: 5%;
+}
+
+.pfp {
+  padding-bottom: 30px;
+}
+
+h5, .bullet-spacer {
+  padding-bottom: 5px;
+}
+
+.card {
+  display: inline-block;
+  border: 0;
+  width: 90%;
+  /* text-align: start; */
+}
+
+.card-body {
+  background: #feffe0;
+  padding-left: 0 !important;
+  padding-right: 0;
+}
+
+.card-img-top {
+  border: 1.5px solid #000000;
+  border-radius: 0;
+}
+
+.card-title {
+  font-size: 100%;
+}
+
+
+
+
+
+
+
+
+
