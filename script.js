@@ -24,17 +24,17 @@ changeText.addEventListener("click", function() {
 // interests
 const interests = [
   "making my 2000th spotify playlist 🎶",
-  "late night reading (currently obssessed with the cheat sheet) 📚",
+  "taking aerobic dance classes with my mom 🕺",
   "analyzing film scenes and film scores 🎬",
-  "learning a k-pop dance 🕺",
   "waiting in line for free coffee and cookies 🍪",
-  "relearning the flute 🪈 and ukulele 🎸",
-  "attempting oil pastel (recently recreated the starry night painting) 🎨",
+  "playing the flute 🪈, piano 🎹, and ukulele 🎸",
+  "attempting to sketch and oil pastel (recently recreated the starry night painting) 🎨",
   "posing as the group photographer 📸",
   "hiking 🏞️",
   "editing vlogs 🎥",
-  "obsessing over pixar 'making of' behind-the-scenes videos",
-  "cafe hopping for matcha variations 🍵"
+  "obsessing over pixar's 'making of' videos 🍿",
+  "cafe hopping for matcha variations 🍵",
+  "reading on a park bench (currently obssessed with pachinko) 📚"
 ];
 
 const changeInterest = document.querySelector("#change-interest");
