@@ -2,7 +2,7 @@
 const study = [
   "finance 📊",
   "graphic design 🎨",
-  "film & animation 🎬",
+  "animation & film 🎬",
   "statistics & machine learning 🤖"
 ];
 
@@ -23,17 +23,16 @@ changeText.addEventListener("click", function() {
 
 // interests
 const interests = [
-  "making my 2000th spotify playlist 🎶",
   "taking aerobic dance classes with my mom 🕺",
-  "analyzing film scenes and film scores 🎬",
+  "making my 2000th spotify playlist 🎶",
   "waiting in line for free coffee and cookies 🍪",
+  "analyzing film scores and film scenes 🎬",
   "playing the flute 🪈, piano 🎹, and ukulele 🎸",
   "attempting to sketch and oil pastel (recently recreated the starry night painting) 🎨",
-  "posing as the group photographer 📸",
-  "hiking 🏞️",
+  "taking aesthetic candid photos of my friends 📸",
   "editing vlogs 🎥",
+  "hiking 🏞️ or swimming 🏊‍♀️",
   "obsessing over pixar's 'making of' videos 🍿",
-  "cafe hopping for matcha variations 🍵",
   "reading on a park bench (currently obssessed with pachinko) 📚"
 ];
 
