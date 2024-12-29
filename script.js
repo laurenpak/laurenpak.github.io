@@ -25,15 +25,15 @@ changeText.addEventListener("click", function() {
 const interests = [
   "taking aerobic dance classes with my mom 🕺",
   "making my 2000th spotify playlist 🎶",
+  "watching a movie at the princeton garden theatre 🍿",
   "waiting in line for free coffee and cookies 🍪",
-  "analyzing film scores and film scenes 🎬",
+  "analyzing film scores and scenes 🎬",
   "playing the flute 🪈, piano 🎹, and ukulele 🎸",
-  "attempting to sketch and oil pastel (recently recreated the starry night painting) 🎨",
-  "taking aesthetic candid photos of my friends 📸",
+  "trying new art mediums (recently recreated the starry night painting with oil pastel) 🎨",
+  "taking candid photos of my friends 📸",
   "editing vlogs 🎥",
-  "hiking 🏞️ or swimming 🏊‍♀️",
-  "obsessing over pixar's 'making of' videos 🍿",
-  "reading on a park bench (currently obssessed with pachinko) 📚"
+  "hiking 🏞️ and swimming 🏊‍♀️",
+  "reading on a park bench (currently obssessed with A Crane Among Wolves) 📚"
 ];
 
 const changeInterest = document.querySelector("#change-interest");
