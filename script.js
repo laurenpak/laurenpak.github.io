@@ -1,8 +1,7 @@
 // studying
 const study = [
-  "finance 📊",
   "graphic design 🎨",
-  "animation & film 🎬",
+  "film & animation 🎬",
   "statistics & machine learning 🤖"
 ];
 
@@ -23,17 +22,19 @@ changeText.addEventListener("click", function() {
 
 // interests
 const interests = [
+  "sketching and people watching at the park 🌳",
+  "watching a movie at a local theatre 🍿",
   "taking aerobic dance classes with my mom 🕺",
-  "making my 2000th spotify playlist 🎶",
-  "watching a movie at the princeton garden theatre 🍿",
-  "waiting in line for free coffee and cookies 🍪",
+  "waiting in line for coffee (love a shaken espresso) ☕️",
   "analyzing film scores and scenes 🎬",
-  "playing the flute 🪈, piano 🎹, and ukulele 🎸",
-  "trying new art mediums (recently recreated the starry night painting with oil pastel) 🎨",
-  "taking candid photos of my friends 📸",
+  "playing the flute 🪈, piano 🎹, or ukulele 🎸",
+  "trying new art mediums (just recreated the starry night painting with oil pastel) 🎨",
+  "taking candids of my friends 📸",
   "editing vlogs 🎥",
-  "hiking 🏞️ and swimming 🏊‍♀️",
-  "reading on a park bench (currently obssessed with A Crane Among Wolves) 📚"
+  "playing tennis 🎾, hiking 🏞️, or swimming 🏊‍♀️",
+  "making my 2000th spotify playlist 🎶",
+  "downloading a new meme 🙉",
+  "reading on a park bench (just finished The Vegetarian) 📚"
 ];
 
 const changeInterest = document.querySelector("#change-interest");
