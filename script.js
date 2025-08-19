@@ -2,6 +2,7 @@
 const study = [
   "graphic design 🎨",
   "film & animation 🎬",
+  "product design ⚡️",
   "statistics & machine learning 🤖"
 ];
 
@@ -26,7 +27,7 @@ const interests = [
   "watching a movie at a local theatre 🍿",
   "taking aerobic dance classes with my mom 🕺",
   "waiting in line for coffee (love a shaken espresso) ☕️",
-  "analyzing film scores and scenes 🎬",
+  "watching \"when a director...\" videos and film analyses on youtube 🎬",
   "playing the flute 🪈, piano 🎹, or ukulele 🎸",
   "trying new art mediums (just recreated the starry night painting with oil pastel) 🎨",
   "taking candids of my friends 📸",
@@ -34,7 +35,7 @@ const interests = [
   "playing tennis 🎾, hiking 🏞️, or swimming 🏊‍♀️",
   "making my 2000th spotify playlist 🎶",
   "downloading a new meme 🙉",
-  "reading on a park bench (just finished The Vegetarian) 📚"
+  "reading on a park bench (just read The Vegetarian, now reading Human Acts) 📚"
 ];
 
 const changeInterest = document.querySelector("#change-interest");
