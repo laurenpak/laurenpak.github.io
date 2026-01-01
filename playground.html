@@ -58,146 +58,6 @@
         max-width: 620px;
       }
 
-      .subheader-intro {
-        display: inline;
-      }
-
-      .changing-text {
-        display: inline;
-        font-weight: 600;
-      }
-
-      .work-header {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        gap: 30px;
-        margin-bottom: 20px;
-        flex-wrap: wrap;
-      }
-
-      .work-section-title {
-        font-family: "IBM Plex Mono", monospace;
-        font-size: 14px;
-        color: #000;
-        margin-bottom: 0px;
-      }
-
-      .filter-buttons {
-        display: flex;
-        gap: 15px;
-        margin-bottom: 0px;
-        flex-wrap: wrap;
-      }
-
-      .filter-btn {
-        padding: 11px 25px;
-        background-color: #ececec;
-        border: none;
-        border-radius: 50px;
-        font-family: "Figtree", sans-serif;
-        font-size: 16px;
-        color: #000;
-        transition: all 0.3s ease;
-        cursor: none;
-      }
-
-      .filter-btn:hover {
-        background-color: #db79f1;
-        color: white;
-        cursor: none;
-      }
-
-      .filter-btn.active {
-        background-color: #db79f1;
-        color: white;
-      }
-
-      .projects-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(350px, 395px));
-        justify-content: start;
-        gap: 40px;
-        margin-bottom: 60px;
-      }
-
-      .project-card {
-        overflow: hidden;
-        transition: transform 0.3s ease;
-        max-width: 450px;
-      }
-
-      .project-card:hover {
-        transform: scale(0.95);
-        opacity: 0.7;
-      }
-
-      .project-image {
-        border-radius: 20px;
-        width: 100%;
-        height: 260px;
-        object-fit: cover;
-        background-color: #e0e0e0;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: #999;
-      }
-
-      .project-info {
-        padding: 5px;
-      }
-
-      .project-title {
-        font-family: "IBM Plex Mono", monospace;
-        font-size: 18px;
-        font-weight: 700;
-        color: #000;
-        margin-bottom: 10px;
-        padding-top: 10px;
-      }
-
-      .project-subtitle {
-        font-family: "Figtree", sans-serif;
-        font-size: 15px;
-        color: #7e7e7e;
-        margin-bottom: 10px;
-        line-height: 1.5;
-      }
-
-      .project-date {
-        font-family: "IBM Plex Mono", monospace;
-        font-size: 12px;
-        color: #b6b6b6;
-        margin-top: 10px;
-        text-transform: uppercase;
-        letter-spacing: 0.5px;
-      }
-
-      .project-tags {
-        display: flex;
-        gap: 20px;
-        flex-wrap: wrap;
-      }
-
-      .tag {
-        font-family: "IBM Plex Mono", monospace;
-        font-size: 13px;
-        border-radius: 20px;
-      }
-
-      .tag.leadership {
-        color: #ff6b3d;
-      }
-
-      .tag.develop {
-        color: #3571f2;
-      }
-
-      .tag.design {
-        color: #9c40f1;
-      }
-
       @media (max-width: 768px) {
         .header-title {
           font-size: 28px;
@@ -206,23 +66,6 @@
         .subheader {
           font-size: 14px;
         }
-
-        .work-section-title {
-          font-size: 14px;
-        }
-
-        .projects-grid {
-          grid-template-columns: 1fr;
-        }
-        .project-card {
-          /* to keep image size the same */
-          max-width: 395px;
-        }
-      }
-
-      .swap-text {
-        display: inline;
-        transition: opacity 0.3s ease;
       }
     </style>
   </head>
@@ -231,37 +74,12 @@
     <div id="nav-placeholder"></div>
     <div class="main-content">
       <!-- header -->
-      <h1 class="header-title">
-        Lauren Pak ☺︎ is an end-to-end
-        <span class="swap-text" id="swap1">developer</span> and
-        <span class="swap-text" id="swap2">designer</span> equipped with a
-        technical skillset ✴︎, sharp product thinking ✧, and a love for blending
-        code and design ☁
-      </h1>
+      <h1 class="header-title">lauren's playground</h1>
 
       <!-- subheader + changing text -->
       <div class="subheader">
-        <span class="subheader-intro">you will catch her... </span>
-        <span class="changing-text" id="changingText"></span>
+        <span class="subheader-intro">in the works :D </span>
       </div>
-
-      <div class="work-header">
-        <!-- my work section -->
-        <h2 class="work-section-title">MY WORK ↓</h2>
-
-        <!-- filter buttons -->
-        <div class="filter-buttons">
-          <button class="filter-btn active" data-filter="all">all</button>
-          <button class="filter-btn" data-filter="develop">develop</button>
-          <button class="filter-btn" data-filter="design">design</button>
-          <button class="filter-btn" data-filter="leadership">
-            leadership
-          </button>
-        </div>
-      </div>
-
-      <!-- projects grid -->
-      <div class="projects-grid" id="projectsGrid"></div>
     </div>
 
     <!-- scripts -->

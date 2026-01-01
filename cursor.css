@@ -1,0 +1,33 @@
+* {
+  cursor: none;
+}
+
+.custom-cursor {
+  width: 17px;
+  height: 17px;
+  background-color: #db79f1;
+  border-radius: 50%;
+  position: fixed;
+  pointer-events: none;
+  z-index: 9999;
+  transition: width 0.2s ease, height 0.2s ease, opacity 0.2s ease,
+    transform 0.2s ease;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+}
+
+.custom-cursor.visible {
+  opacity: 1;
+}
+
+.custom-cursor.hover {
+  width: 35px;
+  height: 35px;
+  opacity: 0.35;
+}
+
+.custom-cursor.click {
+  width: 10px;
+  height: 10px;
+  opacity: 0.35;
+}

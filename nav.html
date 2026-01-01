@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "IBM Plex Mono", monospace;
+      }
+
+      nav {
+        font-size: 14px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 30px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #e0e0e0;
+      }
+
+      .nav-left {
+        display: flex;
+      }
+
+      .nav-name {
+        font-weight: 600;
+        color: #000;
+      }
+
+      .nav-title {
+        margin-left: 15px;
+        color: #7e7e7e;
+      }
+
+      .nav-right {
+        display: flex;
+        gap: 30px;
+        align-items: center;
+      }
+
+      .nav-right a {
+        text-decoration: none;
+        color: #7e7e7e;
+        transition: color 0.3s ease;
+      }
+
+      .nav-right a:hover {
+        color: #db79f1;
+      }
+
+      .nav-left a {
+        text-decoration: none;
+        transition: color 0.3s ease;
+      }
+
+      .nav-left a:hover {
+        color: #000;
+      }
+
+      /* Responsive design */
+      @media (max-width: 768px) {
+        nav {
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 15px;
+        }
+
+        .nav-right {
+          gap: 20px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-left">
+        <a href="index.html" class="nav-name">LAUREN PAK</a>
+        <div class="nav-title">DEVELOPER + DESIGNER</div>
+      </div>
+      <div class="nav-right">
+        <a href="index.html">WORK</a>
+        <a href="playground.html">PLAYGROUND</a>
+        <a href="about.html">ABOUT</a>
+        <a href="Lauren_Pak_Resume.pdf" target="_blank">RESUME</a>
+      </div>
+    </nav>
+  </body>
+</html>

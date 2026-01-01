@@ -1,17 +1,10 @@
-html, body {
+html,
+body {
   padding: 0;
   margin: 0;
-  font-family: "Lucida Sans Typewriter", "Lucida Console", monaco, "Bitstream Vera Sans Mono", monospace;
+  /* font-family: "Lucida Sans Typewriter", "Lucida Console", monaco, "Bitstream Vera Sans Mono", monospace; */
   padding-top: 5px;
-
-  background-color: #feffe0;
-  
-  /* desktop background */
-  /* background-image: url("images/desktop.jpg");
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; */
+  background-color: rgb(249, 248, 246);
 }
 
 .btn-link {
@@ -91,7 +84,6 @@ ul {
 #change-text {
   color: #d970ff;
   text-decoration: none;
-  
 }
 
 #change-text:hover {
@@ -117,7 +109,8 @@ ul {
   padding-bottom: 30px;
 }
 
-h5, .bullet-spacer {
+h5,
+.bullet-spacer {
   padding-bottom: 5px;
 }
 
@@ -142,12 +135,3 @@ h5, .bullet-spacer {
 .card-title {
   font-size: 100%;
 }
-
-
-
-
-
-
-
-
-
