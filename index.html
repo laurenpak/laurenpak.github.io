@@ -47,7 +47,7 @@
         line-height: 1.2;
         color: #000;
         margin-bottom: 25px;
-        max-width: 850px;
+        max-width: 970px;
       }
 
       .subheader {
@@ -195,7 +195,23 @@
       }
 
       .tag.design {
-        color: #9c40f1;
+        color: #008000;
+      }
+
+      .highlight-name {
+        font-weight: 900;
+        color: #e168fc;
+      }
+      .highlight-green {
+        color: #008000;
+      }
+
+      .highlight-blue {
+        color: #3571f2;
+      }
+
+      .highlight-orange {
+        color: #ff6b3d;
       }
 
       @media (max-width: 768px) {
@@ -232,11 +248,12 @@
     <div class="main-content">
       <!-- header -->
       <h1 class="header-title">
-        Lauren Pak ☺︎ is an end-to-end
-        <span class="swap-text" id="swap1">developer</span> and
-        <span class="swap-text" id="swap2">designer</span> equipped with a
-        technical skillset ✴︎, sharp product thinking ✧, and a love for blending
-        code and design ☁
+        <span class="highlight-name">Lauren Pak</span> is a developer and
+        designer equipped with<br />
+        <span class="highlight-blue">technical fluency ✴︎</span>,
+        <span class="highlight-green">sharp product thinking ✧</span>,<br />
+        and a love for
+        <span class="highlight-orange">blending code and design ☁</span>
       </h1>
 
       <!-- subheader + changing text -->
@@ -372,34 +389,6 @@
           });
         });
       });
-
-      // swapping header texts
-      function swapHeaderText() {
-        const swap1 = document.getElementById("swap1");
-        const swap2 = document.getElementById("swap2");
-
-        // fade out
-        swap1.style.opacity = "0";
-        swap2.style.opacity = "0";
-
-        setTimeout(() => {
-          // swap the words
-          if (swap1.textContent === "developer") {
-            swap1.textContent = "designer";
-            swap2.textContent = "developer";
-          } else {
-            swap1.textContent = "developer";
-            swap2.textContent = "designer";
-          }
-
-          // Fade in
-          swap1.style.opacity = "1";
-          swap2.style.opacity = "1";
-        }, 300);
-      }
-
-      // swap header text every 4 seconds
-      setInterval(swapHeaderText, 4000);
     </script>
 
     <script src="cursor.js" defer></script>
