@@ -42,11 +42,11 @@
 
       .header-title {
         font-family: "Figtree", sans-serif;
-        font-size: 35px;
+        font-size: 32.5px;
         /* font-weight: 700; */
-        line-height: 1.2;
+        line-height: 1.3;
         color: #000;
-        margin-bottom: 25px;
+        margin-bottom: 20px;
         max-width: 970px;
       }
 
@@ -54,7 +54,7 @@
         font-family: "Figtree", sans-serif;
         font-size: 17px;
         color: #7e7e7e;
-        margin-bottom: 50px;
+        margin-bottom: 40px;
         max-width: 620px;
       }
 
@@ -135,7 +135,7 @@
       .project-image {
         border-radius: 20px;
         width: 100%;
-        height: 260px;
+        height: 220px;
         object-fit: cover;
         background-color: #e0e0e0;
         display: flex;
@@ -200,7 +200,7 @@
 
       .highlight-name {
         font-weight: 900;
-        color: #e168fc;
+        font-size: 60px;
       }
       .highlight-green {
         color: #008000;
@@ -234,6 +234,11 @@
           /* to keep image size the same */
           max-width: 395px;
         }
+
+        .filter-btn {
+          padding: 9px 15px;
+          font-size: 13px;
+        }
       }
 
       .swap-text {
@@ -248,17 +253,18 @@
     <div class="main-content">
       <!-- header -->
       <h1 class="header-title">
-        <span class="highlight-name">Lauren Pak</span> is a developer and
-        designer equipped with<br />
-        <span class="highlight-blue">technical fluency ✴︎</span>,
-        <span class="highlight-green">sharp product thinking ✧</span>,<br />
-        and a love for
-        <span class="highlight-orange">blending code and design ☁</span>
+        <span class="highlight-name">Hi! I'm Lauren,</span><br />
+        • a <span class="highlight-blue">developer</span> and
+        <span class="highlight-green">designer</span>
+        <br />
+        • a computer science student @ Princeton <br />
+        • interested in bridging
+        <span class="highlight-orange">products + people</span>
       </h1>
 
       <!-- subheader + changing text -->
       <div class="subheader">
-        <span class="subheader-intro">you will catch her... </span>
+        <span class="subheader-intro">you will catch me... </span>
         <span class="changing-text" id="changingText"></span>
       </div>
 
@@ -299,7 +305,7 @@
 
       // changing text in header
       const textOptions = [
-        "studying Computer Science and Graphic Design @ Princeton",
+        "designing posters for school clubs",
         "watching a movie at the Garden Theatre with her friends",
         "reading on a park bench (currently Human Acts)",
         "people watching and sketching",
